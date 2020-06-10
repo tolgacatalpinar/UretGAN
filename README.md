@@ -15,17 +15,13 @@ Then, create a folder in content directory named "lsun" and put the "classroom_t
 
 # Training
 The following row executes the training:
-!python2.7 "[DIR_TO_FILE]/code/cfg/classroom_3stages_color_1.yml" --gpu 0
-
-Note that 
+!python2.7 '[DIR_TO_FILE]/code/main.py' --cfg '[DIR_TO_FILE]/code/cfg/classroom_3stages_color.yml' --gpu 0
+Note that DIR_TO_FILE is the directory of the file - either the original StackGAN-v2's or our model's file- and don't include the file's name in the path.
 
 # Test Results
 We first trained the StackGAN-v2 with CUB dataset, which was also the dataset of the implementers of StackGAN-v2 has used in their paper results. Then, we tested the original architecture with LSUN classroom dataset. After getting the results, we tested the same dataset with our three model. Since the training time of these models require many hours, we focused on results from small number of epochs. In addition to that, we also trained MobileNet-v2 with CelebA dataset. The results we obtained are below.
 
 # Original StackGAN-v2 With LSUN Classroom Dataset
 
-# Our First Model With LSUN Classroom Dataset
+# Our Model With LSUN Classroom Dataset
 
-# Our Second Model With LSUN Classroom Dataset
-
-# Our Third Model With LSUN Classroom Dataset
