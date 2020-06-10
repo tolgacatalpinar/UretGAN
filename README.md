@@ -4,7 +4,7 @@ The related paper can be found here:
 The collaborators of the project are Arda Tümay, Tolga Çatalpınar, Naci Dalkıran
 
 # Aim
-We aimed to improve StackGAN-v2 further to generate more accurate results in a different dataset that they used. We have produced three models based on StackGAN-v2 architecture.
+We aimed to improve StackGAN-v2 further to generate more accurate results in a different dataset that they used. We have produced a model based on StackGAN-v2 architecture.
 
 # Dataset
 LSUN Classroom Dataset can be installed on Google Colab by the following rows:
@@ -15,11 +15,13 @@ Then, create a folder in content directory named "lsun" and put the "classroom_t
 
 # Training
 The following row executes the training:
-!python2.7 '[DIR_TO_FILE]/code/main.py' --cfg '[DIR_TO_FILE]/code/cfg/classroom_3stages_color.yml' --gpu 0
+<\br>!python2.7 '[DIR_TO_FILE]/code/main.py' --cfg '[DIR_TO_FILE]/code/cfg/classroom_3stages_color.yml' --gpu 0
 Note that DIR_TO_FILE is the directory of the file - either the original StackGAN-v2's or our model's file- and don't include the file's name in the path.
 
 # Test Results
-We first trained the StackGAN-v2 with CUB dataset, which was also the dataset of the implementers of StackGAN-v2 has used in their paper results. Then, we tested the original architecture with LSUN classroom dataset. After getting the results, we tested the same dataset with our three model. Since the training time of these models require many hours, we focused on results from small number of epochs. In addition to that, we also trained MobileNet-v2 with CelebA dataset. The results we obtained are below.
+We first trained the StackGAN-v2 with CUB dataset, which was also the dataset of the implementers of StackGAN-v2 has used in their paper results. Then, we tested the original architecture with LSUN classroom dataset. After getting the results, we tested the same dataset with our model. Since the training time of the model require many hours, we focused on results from small number of epochs. In addition to that, we also trained MobileNet-v2 with CelebA dataset for performance comparison. The corresponding results we obtained are below.
+
+# Original StackGAN-v2 With CUB Dataset
 
 # Original StackGAN-v2 With LSUN Classroom Dataset
 
