@@ -26,6 +26,8 @@ We first trained the StackGAN-v2 with CUB dataset, which was also the dataset of
 ![](bird2.png)
 
 # Original StackGAN-v2 With LSUN Classroom Dataset
+![](StackGAN1.png)
+![](StackGAN2.png)
 
 # Our Model With LSUN Classroom Dataset
 
