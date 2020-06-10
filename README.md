@@ -16,7 +16,9 @@ Then, create a folder in content directory named "lsun" and put the "classroom_t
 
 # Training
 The following row executes the training:
-<br/>!python2.7 '[DIR_TO_FILE]/code/main.py' --cfg '[DIR_TO_FILE]/code/cfg/classroom_3stages_color.yml' --gpu 0
+```
+!python2.7 '[DIR_TO_FILE]/code/main.py' --cfg '[DIR_TO_FILE]/code/cfg/classroom_3stages_color.yml' --gpu 0
+```
 Note that DIR_TO_FILE is the directory of the file - either the original StackGAN-v2's or our model's file- and don't include the file's name in the path.
 
 # Test Results
