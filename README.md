@@ -8,8 +8,8 @@ We aimed to improve StackGAN-v2 further to generate more accurate results in a d
 
 # Dataset
 LSUN Classroom Dataset can be installed on Google Colab by the following rows:
-!wget http://dl.yf.io/lsun/scenes/classroom_train_lmdb.zip
-!unzip /content/classroom_train_lmdb.zip
+<br/>!wget http://dl.yf.io/lsun/scenes/classroom_train_lmdb.zip
+<br/>!unzip /content/classroom_train_lmdb.zip
 
 Then, create a folder in content directory named "lsun" and put the "classroom_train_lmdb" file into it.
 
