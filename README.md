@@ -6,6 +6,19 @@ The collaborators of the project are Arda Tümay, Tolga Çatalpınar, Naci Dalk�
 # Aim
 We aimed to improve StackGAN-v2 further to generate more accurate results in a different dataset that they used. We have produced three models based on StackGAN-v2 architecture.
 
+# Dataset
+LSUN Classroom Dataset can be installed on Google Colab by the following rows:
+!wget http://dl.yf.io/lsun/scenes/classroom_train_lmdb.zip
+!unzip /content/classroom_train_lmdb.zip
+
+Then, create a folder in content directory named "lsun" and put the "classroom_train_lmdb" file into it.
+
+# Training
+The following row executes the training:
+!python2.7 "[DIR_TO_FILE]/code/cfg/classroom_3stages_color_1.yml" --gpu 0
+
+Note that 
+
 # Test Results
 We first trained the StackGAN-v2 with CUB dataset, which was also the dataset of the implementers of StackGAN-v2 has used in their paper results. Then, we tested the original architecture with LSUN classroom dataset. After getting the results, we tested the same dataset with our three model. Since the training time of these models require many hours, we focused on results from small number of epochs. In addition to that, we also trained MobileNet-v2 with CelebA dataset. The results we obtained are below.
 
