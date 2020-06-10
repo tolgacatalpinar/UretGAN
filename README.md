@@ -22,6 +22,8 @@ Note that DIR_TO_FILE is the directory of the file - either the original StackGA
 We first trained the StackGAN-v2 with CUB dataset, which was also the dataset of the implementers of StackGAN-v2 has used in their paper results. Then, we tested the original architecture with LSUN classroom dataset. After getting the results, we tested the same dataset with our model. Since the training time of the model require many hours, we focused on results from small number of epochs. In addition to that, we also trained MobileNet-v2 with CelebA dataset for performance comparison. The corresponding results we obtained are below.
 
 # Original StackGAN-v2 With CUB Dataset
+![](bird1.png)
+![](bird2.png)
 
 # Original StackGAN-v2 With LSUN Classroom Dataset
 
