@@ -35,3 +35,7 @@ On the first epoch
 
 On the fourth epoch
 ![](Images/UretGAN_Fourth.png)
+
+# MobileNet-v2 With CelebA Dataset
+![](Images/MobileNet1.PNG)
+![](Images/MobileNet2.PNG)
