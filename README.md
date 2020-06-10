@@ -30,4 +30,8 @@ We first trained the StackGAN-v2 with CUB dataset, which was also the dataset of
 ![](Images/StackGAN2.png)
 
 # Our Model With LSUN Classroom Dataset
+On the first epoch
+![](Images/UretGAN_First.png)
 
+On the fourth epoch
+![](Images/UretGAN_Fourth.png)
