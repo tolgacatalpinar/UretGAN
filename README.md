@@ -1,6 +1,6 @@
 # UretGAN
 
-The related paper can be found here: https://github.com/tolgacatalpinar/UretGAN/blob/master/UretGAN_Final_Report.pdf
+The related paper can be found [here](https://github.com/tolgacatalpinar/UretGAN/blob/master/UretGAN_Final_Report.pdf)
 The collaborators of the project are Arda Tümay, Tolga Çatalpınar, Naci Dalkıran
 
 # Aim
